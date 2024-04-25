@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+  rel="stylesheet"
+/>
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <audio id="sound"></audio>
+  <div class="container min-w-full min-h-screen bg-indigo-400 flex items-center justify-center">
+
+    <main class=" bg-white min-h-72 max-w-4xl px-16 py-16 rounded-lg ">
+      <div class="input">
+        <input id="input-word" class="border-b-2 border-indigo-400 outline-none w-72 px-2 pb-2 mr-6" type="text" placeholder="Type your word here...">
+        <button id="search-btn" class="bg-indigo-400 text-white rounded-md px-6 py-2 ">Search</button>
+      </div>
+
+        <div id="result" class="defn mt-8">
+
+        </div>
+
+    </main>
+
+  </div>
+<script src="script.js"></script>
+</body>
+
+</html>
